@@ -608,6 +608,10 @@ video {
   z-index: auto;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .m-8 {
   margin: 2rem;
 }
@@ -728,6 +732,14 @@ video {
 
 .h-4 {
   height: 1rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-24 {
@@ -877,6 +889,14 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -1208,6 +1228,11 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1304,6 +1329,18 @@ video {
   l: �;
 }
 
+.\[cq\:\455\FFFD\FFFD 9\FFFD\FFFDWq\FFFD\FFFD\1F\FFFD\|\13\] {
+  cq: ѕ��9��Wq���|;
+}
+
+.\[p\:\1\FFFD\/\FFFD f\5m\+\FFFD\FFFD_\FFFDt\FFFD\5\FFFD\FFFD\743\FFFDJH\] {
+  p: �/�fm+�� �t���݃�JH;
+}
+
+.\[ty\:\FFFD\FFFD\FFFD\FFFD\#\FFFDG\1C\4\FFFD\FFFD\257\FFFD\FFFD\] {
+  ty: ����#�G��ɗ��;
+}
+
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -1312,6 +1349,11 @@ video {
 .hover\:bg-gray-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-r:hover {
